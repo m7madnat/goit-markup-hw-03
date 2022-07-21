@@ -193,11 +193,12 @@ img {
 }
 
 
-/* .button:hover,
+.button:hover,
 .button:focus {
-  background-color: var(--primary-background-color);
-  color: var(--link-hover-focus-web-color);
-} */
+  background-color: #188CE8;
+  
+  color: #FFFFFF;
+}
 
 
 .visually-hidden {
@@ -394,7 +395,10 @@ img {
   line-height: 1.63;
   text-align: center;
 }
-
+.filter-current{
+  background-color: var(--link-hover-focus-web-color);
+  color: #2196F3;
+}
 
 .filter .button {
   display: flex;
